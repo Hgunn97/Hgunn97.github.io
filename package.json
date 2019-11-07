@@ -1,0 +1,21 @@
+{
+  "name": "hgunn97.github.io",
+  "version": "1.0.0",
+  "description": "Single page site for all my details",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hgunn97/Hgunn97.github.io.git"
+  },
+  "author": "Hannah Gunn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hgunn97/Hgunn97.github.io/issues"
+  },
+  "homepage": "https://github.com/Hgunn97/Hgunn97.github.io#readme"
+}

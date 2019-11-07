@@ -1,0 +1,116 @@
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+    margin: 0;
+    padding: 0;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+div {
+    display: block;
+}
+
+html {
+    background-color: white;
+    font-size: 16px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    min-width: 300px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.hero {
+    background-color: #eea9b8;
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.is-fullheight {
+    align-items: center;
+    display: flex;
+}
+
+
+/*Hero Nav bar css */
+.navBar {
+    background-color: transparent !important;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    display: flex;
+    padding: 16px 8px;
+}
+
+/*Hero header inside the nav bar css */
+.hero-head {
+    display: -webkit-box!important;
+}
+
+/* Navbar content all of the items */
+.navBar-content{
+    flex-direction: row;
+    margin-left: auto!important;
+    list-style: none;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+}
+
+/*Navbar items */
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.hero-body {
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 3rem 1.5rem;
+}
+
+.container {
+    flex-grow: 1;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+}
+
+.title {
+    font-size: 5rem;
+    color: #ffffff;
+}
+
+.subtitle {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.text-centered {
+    text-align: center !important;
+}

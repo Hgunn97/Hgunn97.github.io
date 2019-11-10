@@ -7,6 +7,6 @@
     font-size: 2rem;
     color: #ffffff;
 }
-.navbar-item{
-    font-size: 2rem;
+.navbar-item .size{
+    font-size: 2.5rem;
 }

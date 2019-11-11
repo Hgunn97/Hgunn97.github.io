@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="./css/bulma.css" />
         <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="./main.js"></script>
         <title>Hannah Gunn</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
@@ -15,17 +17,18 @@
                 <header class="navbar">
                     <div class="container">
                         <div class="navbar-brand">
-                            <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+                            <span class="navbar-burger burger" data-target="navbarMenuHeroC" onclick="toggleBurger()">
+                                <span></span>
                                 <span></span>
                                 <span></span>
                             </span>
                         </div>
                         <div id="navbarMenuHeroC" class="navbar-menu">
                             <div class="navbar-end">
-                                <a class="navbar-item size" href="https://www.linkedin.com/in/hannah-m-gunn/">
+                                <a class="navbar-item" href="https://www.linkedin.com/in/hannah-m-gunn/">
                                     LinkedIn
                                 </a>
-                                <a class="navbar-item size" href="https://github.com/hgunn97">
+                                <a class="navbar-item" href="https://github.com/hgunn97">
                                     GitHub
                                 </a>
                             </div>

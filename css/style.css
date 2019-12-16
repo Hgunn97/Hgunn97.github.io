@@ -24,12 +24,13 @@ html{
     margin-right: 10px;
 }
 
+
 #shootingStars{
     width: 5px;
     height: 4px;
     background: transparent;
     animation: animShooting 1.5s linear infinite reverse;
-    box-shadow: 34px 242px #fff;
+    box-shadow: 900px 242px #fff;
 }
 
 #shootingStars::after{
@@ -602,22 +603,18 @@ html{
 
 @keyframes animStar {
     from {
-        transform: translateX(0px);
+        transform: translateY(0px);
     }
     to{
-        transform: translateX(-2000px);
+        transform: translateY(-2000px);
     }
 }
 
 @keyframes animShooting {
-    100% {
-        opacity: 0;
-        transform: translateX(2000px);
+    from {
+        transform: rotateZ(-180deg);
     }
-    0% {
-        opacity: 0;
-    }
-    10% {
-        opacity: 1;
+    to {
+        transform: translate(3000px);
     }
 }

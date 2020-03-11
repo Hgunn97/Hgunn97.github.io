@@ -11,6 +11,10 @@ html{
     color: #363636 !important;
 }
 
+#mainPad{
+    padding: 0px 24px 150px 24px !important;
+}
+
 .title {
     font-size: 5.5rem;
     color: #ffffff;
@@ -19,6 +23,14 @@ html{
 .subtitle {
     font-size: 1.4rem;
     color: grey;
+    margin-bottom: 5px !important;
+}
+.refreshBtn{
+    color: grey;
+    cursor: pointer;
+}
+.refreshBtn:hover{
+    color: white;
 }
 .size{
     font-size: 25px;

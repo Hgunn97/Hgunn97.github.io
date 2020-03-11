@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <script src="https://kit.fontawesome.com/defdda6a83.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="./css/bulma.css" />
         <link rel="stylesheet" type="text/css" href="./css/style.css">
         <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
@@ -9,7 +10,7 @@
         <title>Hannah Gunn</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
-    <body>
+    <body onload="textRefesh()">
         <section class="hero is-fullheight">
                 <div id="stars"></div>
                 <div id="stars2"></div>
@@ -41,14 +42,16 @@
             </div>
 
             <!--Hero Content is here-->
-            <div class="hero-body">
+            <div class="hero-body" id="mainPad">
                 <div class="container has-text-centered">
                     <p class="title">
                         Hannah Gunn
                     </p>
-                    <p class="subtitle">
-                        "No matter what people tell you, words and ideas can change the world" - Robin Williams
+                    <p class="subtitle" id="quotes">
                     </p>
+                    <span class="icon" onClick="textRefesh()">
+                        <i class="fas fa-redo refreshBtn"></i>
+                    </span>
                 </div>
             </div>
         </section>

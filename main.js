@@ -32,5 +32,5 @@ let quoteList =
 function textRefesh(){
     let index = Math.floor(Math.random() * quoteList.length)
     let displayTxt = quoteList[index]
-    document.getElementById('quotes').innerHTML = displayTxt
+    document.getElementById('quoteTxt').innerHTML = displayTxt
 }
